@@ -8,6 +8,7 @@ def my_find(collection)
     i+=1
   end
     if correct_element_to_block.first
-      return correct_element_to_block
+      
     end
+    correct_element_to_block
 end
