@@ -8,7 +8,7 @@ require 'pry'
    # i+=1
   #end
    
-3end
+#end
 def my_find(collection)
   i = 0
   while i < 100
