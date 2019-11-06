@@ -8,6 +8,6 @@ def my_find(collection)
     i+=1
   end
    if correct_element_to_block.include?(1)
-     return 1
+     return correct_element_to_block
   end
 end
