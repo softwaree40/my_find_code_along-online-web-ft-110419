@@ -10,9 +10,11 @@ require 'pry'
    
 #end
 def my_find(collection)
+  new_array = []
   i = 0
   while i < 100
-    yield(1)
+    new_array << yield(1)
       i = i + 1
   end
+  new_array
 end
