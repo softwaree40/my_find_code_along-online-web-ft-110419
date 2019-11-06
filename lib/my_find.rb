@@ -16,5 +16,5 @@ def my_find(collection)
     new_array << yield(1)
       i = i + 1
   end
-  new_array
+  return new_array
 end
