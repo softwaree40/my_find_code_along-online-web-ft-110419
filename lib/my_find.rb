@@ -7,7 +7,7 @@ def my_find(collection)
     correct_element_to_block << yield(collection[i])
     i+=1
   end
-    if collection[i].first
-      return collection[i]
+    if correct_element_to_block.first
+      return correct_element_to_block
     end
 end
